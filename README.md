@@ -46,6 +46,9 @@ Structure du projet
 •	dashboard/ : fichiers de visualisation
 •	images/ : captures du dashboard
 •	README.md : présentation du projet
+
 Auteur
+
 Boubacar Sidi Aly
+
 Aspiring Data Analyst | Data Science

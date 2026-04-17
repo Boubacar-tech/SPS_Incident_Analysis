@@ -1,54 +1,29 @@
-# SPS_Incident_Analysis
+#  IT Incident Analysis SPS ( local company )
 
-Contexte 
-Ce projet simule une analyse  d’incidents dans un environnement réseau/télécom (type entreprise comme SPS).
-L’objectif est de reproduire un cas réel de travail d’un analyste de données dans le domaine IT.
-Objectif:
-Analyser les incidents réseau afin de :
-Identifier les types de pannes les plus fréquents
-Déterminer les zones (sites) les plus affectées
-Évaluer le temps de résolution
-Suivre l’évolution des incidents dans le temps
-Outils utilisés:
-      • Python: pour simuler et générer les données 
-      • Excel : préparation et structuration des données
-      • Looker Studio : création du dashboard interactif
-      • GitHub : gestion et présentation du projet
-Dashboard
-Le dashboard permet une visualisation rapide des indicateurs clés :
-•	Total des incidents
-•	Temps moyen de résolution
-•	Répartition des incidents par site
-•	Répartition par priorité
-•	Analyse par type d’équipement
-•	Évolution des incidents dans le temps
+## 🎯 Project Overview
+This project simulates a real-world IT Data Analyst workflow. It focuses on monitoring and analyzing technical incidents (Routers, Firewalls, Switches) to optimize the **Mean Time To Resolution (MTTR)** and identify operational bottlenecks.
 
-Analyse des données
+## 📈 Dashboard Preview
+![Dashboard Preview](dashboard_preview.png) 
+*Interactive dashboard built with Google Data Studio.*
 
-Le site de Nouakchott présente le plus grand nombre d’incidents
-La majorité des incidents sont de priorité basse et moyenne
-Les équipements les plus touchés sont les serveurs et dispositifs réseau
-Le volume d’incidents reste globalement stable dans le temps
-Recommandations:
+## 🛠️ Technical Stack
+*   Python: Synthetic data generation using `pandas` and `random` libraries.
+*   Excel: Data cleaning, normalization, and KPI structuring.
+*   Looker Studio: Interactive data visualization and reporting.
+*   GitHub: Project documentation and version control.
 
-Renforcer la maintenance préventive dans les zones les plus touchées
-Prioriser le traitement des incidents critiques
-Réduire le temps moyen de résolution via une meilleure organisation
-Mettre en place un système de surveillance proactive des équipements
-Résultat:
+## 🔍 Key Business Insights
+*   Geographic Focus: Nouakchott records the highest volume of incidents, suggesting a need for increased technician allocation in this area.
+*   Equipment Reliability: Routers and Firewalls are the most frequent points of failure.
+*   Performance: The current average resolution time is **47 hours**. High-priority incidents are being monitored to reduce this delay.
 
-Ce projet démontre :
-•	La capacité à analyser des données réelles/simulées
-•	La création de dashboards professionnels
-•	La transformation des données en insights exploitables
-Structure du projet
-•	data/ : jeu de données
-•	dashboard/ : fichiers de visualisation
-•	images/ : captures du dashboard
-•	README.md : présentation du projet
+## 🚀 How to Run the Project
+1. Clone the repository.
+2. Install dependencies: `pip install pandas`.
+3. Run the generator: `python Scripts/generator.py` to create a fresh dataset.
+4. Import the generated `SPS_incidents_data.xlsx` into Looker Studio.
 
-Auteur
 
-Boubacar Sidi Aly
 
-Aspiring Data Analyst | Data Science
+*Developed by **Boubacar-tech** as part of a Data Analytics Portfolio.*

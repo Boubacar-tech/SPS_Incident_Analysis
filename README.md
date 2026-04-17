@@ -25,5 +25,30 @@ This project simulates a real-world IT Data Analyst workflow. It focuses on moni
 4. Import the generated `SPS_incidents_data.xlsx` into Looker Studio.
 
 
-
 *Developed by **Boubacar-tech** as part of a Data Analytics Portfolio.*
+
+
+
+In french:
+
+📊 Analyse des incidents IT SPS (entreprise locale)
+🎯 Aperçu du projet
+Ce projet simule un workflow réel d’analyste de données IT. Il se concentre sur le suivi et l’analyse des incidents techniques (routeurs, pare-feux, commutateurs) afin d’optimiser le temps moyen de résolution (MTTR) et d’identifier les goulots d’étranglement opérationnels.
+📈 Aperçu du tableau de bord
+�
+Tableau de bord interactif créé avec Google Data Studio.
+🛠️ Stack technique
+Python : génération de données synthétiques avec les bibliothèques pandas et random.
+Excel : nettoyage des données, normalisation et structuration des KPI.
+Looker Studio : visualisation interactive des données et reporting.
+GitHub : documentation du projet et gestion de version.
+🔍 Principaux insights métier
+Focus géographique : Nouakchott enregistre le plus grand volume d’incidents, ce qui suggère la nécessité d’augmenter l’allocation de techniciens dans cette zone.
+Fiabilité des équipements : les routeurs et les pare-feux sont les points de défaillance les plus fréquents.
+Performance : le temps moyen de résolution actuel est de 47 heures. Les incidents à haute priorité sont surveillés afin de réduire ce délai.
+🚀 Comment exécuter le projet
+Cloner le dépôt.
+Installer les dépendances : pip install pandas.
+Exécuter le générateur : python Scripts/generator.py pour créer un nouveau dataset.
+Importer le fichier généré SPS_incidents_data.xlsx dans Looker Studio.
+Développé par Boubacar-tech dans le cadre d’un portfolio en analyse de données.
